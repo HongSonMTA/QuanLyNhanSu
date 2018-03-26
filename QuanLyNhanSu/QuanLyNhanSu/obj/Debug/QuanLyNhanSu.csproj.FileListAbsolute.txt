@@ -1,0 +1,2 @@
+E:\Kỳ 6\Công nghệ web\demo\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
+E:\Kỳ 6\Thực Tập Nhóm\Bài Tập\ThucTapNhom_QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
