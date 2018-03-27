@@ -15,7 +15,7 @@ go
 create table PhongBan(
 MaPB VARCHAR(10) primary key,
 TenPB nvarchar(50),
-MaTruongKhu VARCHAR(10),
+MaTruongPhong VARCHAR(10),
 DiaChi nvarchar(50),
 SDT char(15))
 go
@@ -62,20 +62,18 @@ INSERT dbo.NguoiDung
 VALUES  ( N'user1', -- TaiKhoan - nvarchar(30)
           N'1'  -- MatKhau - nvarchar(30)
           )
-ALTER table NhanVien
-alter column GioiTinh varchar(3)
 go
-insert into NhanVien(MaNV,HoTen,DanToc,GioiTinh,SDT,QueQuan,NgaySinh)
-values ('NV01','Hoàng Thị Minh','kinh','Nu','0976986543','Hà Nội','09-08-1990'),
-('NV02','Nguyễn Quang Huy','kinh','Nam','0973686583','Vĩnh Phúc','10-19-1990'),
-('NV03','Ngô Hữu Huy','kinh','Nam','0976639201','Hà Nam','03-20-1993'),
-('NV04','Bùi Trung Kiên','kinh','Nam','0976863496','Hà Nội','12-08-1992'),
-('NV05','Nguyễn Thị Ngọc','kinh','Nu','01647386289','Phú Thọ','02-08-1991'),
-('NV0','Lê Bá Lộc','kinh','Nam','0976963984','Ha Noi','01-08-1995')
-
+insert into dbo.NhanVien(MaNV,HoTen,DanToc,GioiTinh,SDT,QueQuan,NgaySinh)
+values ('NV07',N'Nguyễn Thanh Hằng',N'kinh',N'Nữ','0976986542',N'Hà Nội','11-23-1987'),
+('NV02',N'Nguyễn Quang Huy',N'kinh',N'Nam','0973686583',N'Vĩnh Phúc','10-19-1990'),
+('NV03',N'Ngô Hữu Huy',N'kinh',N'Nam','0976639201',N'Hà Nam','03-20-1993'),
+('NV04',N'Bùi Trung Kiên',N'kinh',N'Nam','0976863496',N'Hà Nội','12-08-1992'),
+('NV05',N'Nguyễn Thị Ngọc',N'kinh',N'Nữ','01647386289',N'Phú Thọ','02-08-1991'),
+('NV06',N'Lê Bá Lộc',N'kinh',N'Nam','0976963984',N'Hà Nội','01-08-1995')
 GO
 
-CREATE PROC SP_DangKi(@taikhoan NVARCHAR(30),@matkhau NVARCHAR(30))
+CREATE PROC SP__DangKi(@taikhoan NVARCHAR(30),@matkhau NVARCHAR(30))
+
 AS
 BEGIN
 INSERT dbo.NguoiDung
@@ -84,6 +82,3 @@ VALUES  ( @taikhoan, -- TaiKhoan - nvarchar(30)
           @matkhau  -- MatKhau - nvarchar(30)
           )
 END
-
-ALTER TABLE dbo.Luong
-ALTER COLUMN LuongCoBan BIGINT

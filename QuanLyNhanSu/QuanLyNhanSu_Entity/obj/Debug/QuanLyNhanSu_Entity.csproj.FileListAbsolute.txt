@@ -1,0 +1,5 @@
+D:\GitHub\QLNS\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu_Entity\obj\Debug\QuanLyNhanSu_Entity.csprojResolveAssemblyReference.cache
+D:\GitHub\QLNS\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu_Entity\bin\Debug\QuanLyNhanSu_Entity.dll
+D:\GitHub\QLNS\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu_Entity\bin\Debug\QuanLyNhanSu_Entity.pdb
+D:\GitHub\QLNS\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu_Entity\obj\Debug\QuanLyNhanSu_Entity.dll
+D:\GitHub\QLNS\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu_Entity\obj\Debug\QuanLyNhanSu_Entity.pdb

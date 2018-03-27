@@ -33,6 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="QuanLyNhanSu_BUS">
+      <HintPath>..\QuanLyNhanSu_BUS\bin\Debug\QuanLyNhanSu_BUS.dll</HintPath>
+    </Reference>
+    <Reference Include="QuanLyNhanSu_DAL">
+      <HintPath>..\QuanLyNhanSu_DAL\bin\Debug\QuanLyNhanSu_DAL.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
